@@ -1,5 +1,56 @@
 body
 {
-    background-color:#286400;
-    color:#ffffff;
+    background-color:#cecece;
+    color:#000000;
+    font-size: 16px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+#header-desktop .menu-item, #header-mobile
+{
+
+    margin:0 .5rem;
+}
+
+.menu-inner
+{
+    float:right;
+}
+
+a.menu-item, .header-title a
+{
+    color:#000000;
+}
+
+.header-wrapper
+{
+    justify-content: space-between;
+    display: flex;
+}
+
+
+
+#header-mobile {
+  display: none;
+  position: static;
+}
+
+@media only screen and (max-width: 680px) {
+  #header-desktop {
+    display: none;
+  }
+
+  #header-mobile {
+    display: block;
+  }
+
 }

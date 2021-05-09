@@ -21,6 +21,7 @@
         })(window, document, 'script', 'dataLayer', 'GTM-M966N8M');</script>
     <!-- End Google Tag Manager -->
     <link href="./css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css">
     <title>HTML Test</title>
     <meta name="author" content="Ben Rogers">
     <meta name="publisher" content="BenRogersWPG">
@@ -32,14 +33,53 @@
 
 </head>
 
-<body>
+<body header-desktop="fixed" header-mobile="auto" theme="light">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M966N8M" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <h1>Ben Rogers Web Portfolio</h1>
-    <h2>My First GitHub Page</h2>
-    <p>More coming soon.</p>
+
+
+    <header class="mobile" id="header-mobile">
+        <div class="header-container">
+            <div class="header-wrapper">
+                <div class="header-title">
+                    <a href="/" title="Ben"><span class="header-title-pre"></span>Home</a>
+                </div>
+                <div class="menu-toggle" id="menu-toggle-mobile">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+            <div class="menu" id="menu-mobile"><a class="menu-item" title="TBD" href="#"> About </a><a class="menu-item"
+                    href="https://github.com/BenRogersWPG" title="GitHub" rel="noopener noreferrer" target="_blank"><i
+                        class="fab fa-github fa-fw"></i> </a> | <a href="javascript:void(0);"
+                    class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a></div>
+        </div>
+    </header>
+
+    <header class="desktop" id="header-desktop">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Ben"><span class="header-title-pre"></span>Home</a>
+            </div>
+            <div class="menu">
+                <div class="menu-inner"><a class="menu-item" title="TBD" href="#"> About </a><a class="menu-item"
+                        href="https://github.com/BenRogersWPG" title="GitHub" rel="noopener noreferrer"
+                        target="_blank"><i class="fab fa-github fa-fw"></i> </a> | <a href="javascript:void(0);"
+                        class="menu-item theme-switch" title="Switch Theme">
+                        <i class="fas fa-adjust fa-fw"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>Ben Rogers Web Portfolio</h1>
+        <h2>My First GitHub Page</h2>
+        <p>More coming soon.</p>
+    </main>
 </body>
 
 </html>
