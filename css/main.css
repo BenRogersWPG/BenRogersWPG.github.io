@@ -5,6 +5,13 @@ body
     font-size: 16px;
 }
 
+body[theme=dark]
+{
+    color:#cecece;
+    background-color:#000000;
+}
+
+
 a
 {
     text-decoration: none;
@@ -26,10 +33,11 @@ a:hover
     float:right;
 }
 
-a.menu-item, .header-title a
+[theme=light] a.menu-item, [theme=light] .header-title a, [theme=light] .menu-item > i
 {
     color:#000000;
 }
+
 
 .header-wrapper
 {
@@ -53,4 +61,10 @@ a.menu-item, .header-title a
     display: block;
   }
 
+}
+
+
+[theme=dark] a.menu-item, .header-title a, .menu-item > i
+{
+    color:#ffffff;
 }
