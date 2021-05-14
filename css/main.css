@@ -22,7 +22,7 @@ body
 
 header.desktop, header.mobile
 {
-  width:94%;
+  width:calc(100% - 14px);
 }
 
 
@@ -59,11 +59,18 @@ header-desktop .menu-item,.menu-item/*, #header-mobile*/
     margin:0 .5rem;
 }
 
+#header-desktop > div > div.menu
+{
+    /*margin-right:2%;*/
+
+}
+
 .menu-inner, #menu-mobile
 {
     float:right;
     display: inline-flex;
     align-items: center;
+    /*margin-right:3%;*/
 }
 
 #header-mobile > div > div.header-wrapper
@@ -116,6 +123,7 @@ header
       padding-left:10px;
       margin-left:0px;
       margin-right:0px;
+      padding-right:4px;
       
 }
 
