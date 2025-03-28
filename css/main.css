@@ -31,7 +31,11 @@ header.mobile {
 }
 
 
-
+img {
+  border: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
 
 
 body[theme=dark] {
