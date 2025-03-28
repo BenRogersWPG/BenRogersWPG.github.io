@@ -115,6 +115,9 @@ header-desktop .menu-item,.menu-item/*, #header-mobile*/
       -webkit-box-shadow: 0 0 0.5rem 0 rgb(0 0 0 / 10%);
 }
 
+[theme=dark] h1, h2, h3, h4{
+  background-color: #d1d1d1;
+}
 
 header
 {
@@ -124,7 +127,7 @@ header
       margin-left:0px;
       margin-right:0px;
       padding-right:4px;
-      
+
 }
 
 
@@ -137,7 +140,7 @@ main
 {
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 10px; 
+    margin-top: 10px;
     width:90%;
 }
 
