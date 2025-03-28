@@ -116,7 +116,7 @@ header-desktop .menu-item,.menu-item/*, #header-mobile*/
 }
 
 [theme=dark] h1, h2, h3, h4{
-  background-color: #d1d1d1;
+  color: #d1d1d1;
 }
 
 header
