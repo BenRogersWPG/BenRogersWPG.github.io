@@ -99,6 +99,12 @@ header-desktop .menu-item,.menu-item/*, #header-mobile*/
 
 
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
 
 [theme=dark] header
 {
