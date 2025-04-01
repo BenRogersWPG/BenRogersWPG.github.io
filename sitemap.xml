@@ -6,12 +6,12 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://benrogerswpg.github.io/</loc>
-    <lastmod>2025-03-27T23:07:52+00:00</lastmod>
+    <lastmod>2025-03-28T04:00:46+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://benrogerswpg.github.io/Goodreads-Achievements/</loc>
-    <lastmod>2025-03-24T04:05:00+00:00</lastmod>
+    <lastmod>2025-04-01T14:06:26+00:00</lastmod>
     <priority>0.80</priority>
     <image:image>
       <image:loc>https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Buzzy-Books/buzzy-books.webp</image:loc>
@@ -26,10 +26,13 @@
       <image:loc>https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Era-Explorer/era-explorer.webp</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/March/march.webp</image:loc>
+      <image:loc>https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/April/april.webp</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Sapphire-Reader/sapphire-reader.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Her-Story/her-story.webp</image:loc>
     </image:image>
   </url>
 
