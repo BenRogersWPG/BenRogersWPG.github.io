@@ -10,7 +10,7 @@ body {
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 0px;
-
+  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
 }
 
 .header-title {
@@ -94,7 +94,14 @@ header-desktop .menu-item,
   font-weight: 700;
 }
 
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+}
 
 
 
