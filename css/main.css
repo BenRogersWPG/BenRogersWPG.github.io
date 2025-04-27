@@ -36,7 +36,6 @@ img {
   -webkit-box-shadow: none;
 }
 
-
 body[theme=dark] {
   color: #cecece;
   background-color: #000000;
@@ -44,7 +43,7 @@ body[theme=dark] {
 
 
 [theme=light] a {
-  color: #0000ee;
+  color: #0000cc;
 }
 
 [theme=dark] a {
@@ -118,8 +117,6 @@ h6 {
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
 }
 
-
-
 header {
   position: sticky;
   top: 0;
@@ -166,7 +163,6 @@ header {
 
 }
 
-
 [theme=dark] a.menu-item,
 [theme=dark] .header-title a,
 [theme=dark] .menu-item>i {
@@ -192,5 +188,4 @@ main {
   #header-mobile {
     display: block;
   }
-
 }
