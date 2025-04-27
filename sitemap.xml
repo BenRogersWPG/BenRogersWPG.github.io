@@ -35,5 +35,9 @@
       <image:loc>https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Her-Story/her-story.webp</image:loc>
     </image:image>
   </url>
-
+  <url>
+    <loc>https://benrogerswpg.github.io/about</loc>
+    <lastmod>2025-04-26T05:42:54+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
 </urlset>
