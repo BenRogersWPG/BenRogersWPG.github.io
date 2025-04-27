@@ -30,7 +30,6 @@ header.mobile {
   position: static;
 }
 
-
 img {
   border: 0;
   box-shadow: none;
@@ -43,6 +42,22 @@ body[theme=dark] {
   background-color: #000000;
 }
 
+
+[theme=light] a {
+  color: #0000ee;
+}
+
+[theme=dark] a {
+  color: #8F8FFF;
+}
+
+[theme=light] a:visited {
+  color: #590094;
+}
+
+[theme=dark] a:visited {
+  color: #B47EE7;
+}
 
 a {
   text-decoration: none;
@@ -153,8 +168,8 @@ header {
 
 
 [theme=dark] a.menu-item,
-.header-title a,
-.menu-item>i {
+[theme=dark] .header-title a,
+[theme=dark] .menu-item>i {
   color: #ffffff;
 }
 
