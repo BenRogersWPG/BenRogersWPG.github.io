@@ -177,6 +177,15 @@ main {
   max-width: 900px;
 }
 
+form input,
+form textarea {
+  width: 60%;
+  max-width: 900px;
+}
+form textarea {
+  height: 60px;
+}
+
 #header-mobile {
   display: none;
 }
