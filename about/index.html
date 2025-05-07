@@ -115,7 +115,16 @@
     <main>
         <h1>About Ben Rogers</h1>
         <h2>Programmer Analyst</h2>
-        <img src="/Media/Profile-Photo/Ben-Rogers-About-Profile.webp" alt="Ben Rogers wearing a tie in England with the London Eye in the background" class="profile-image" width="200" height="200">
+        <img
+        src="/Media/Profile-Photo/Ben-Rogers-About-Profile.webp"
+        srcset="
+            /Media/Profile-Photo/Ben-Rogers-About-Profile-200.webp 200w,
+            /Media/Profile-Photo/Ben-Rogers-About-Profile.webp 300w
+        "
+        sizes="(max-width: 300px) 200px, 300px"
+        alt="Ben Rogers wearing a tie in England with the London Eye in the background"
+        class="profile-image"
+        />
         <p>Hi, I am Ben. I am a Programmer Analyst with a focus on full-stack development, covering both desktop and web. I have a passion for coding and enjoy creating accessible, SEO-friendly, and fun/interesting applications. I am particularly focused on CI/CD, automation, and accessibility. My goal is to continuously learn and improve my skills. You can usually catch me reading new programming books, and trying out code examples here on GitHub (<i>mostly in private repos though</i>).</p>
         <h2>Programming Experience</h2>
         <ul>

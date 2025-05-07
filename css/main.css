@@ -113,8 +113,8 @@ svg {
 img.profile-image
 {
   max-width: 100%;
-    height: auto;
-    width: auto;
+    height: 200px;
+    width: 200px;
     float:right;
     padding-left:10px;
     padding-bottom:10px;
