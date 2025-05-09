@@ -95,17 +95,6 @@ body[theme=light] {
   background-color: #cecece;
 }
 
-[theme=light] li {
-  color: #000000;
-  background-color: #cecece
-}
-
-[theme=dark] li {
-  color: #cecece;
-  background-color: #000000;
-}
-
-
 [theme=light] a {
   color: #0000cc;
 }
