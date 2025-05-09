@@ -255,6 +255,36 @@ header.desktop div.menu div.menu-inner {
   background-color: #353535;
 }
 
+[theme=light] #breadcrumbs {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+[theme=dark] #breadcrumbs {
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+#breadcrumbs {
+  font-size: 0.95rem;
+  padding: 10px 15px;
+  /*margin: 1rem auto;*/
+  width: fit-content;
+  border-radius: 8px;
+  backdrop-filter: blur(6px);
+}
+
+#breadcrumbs a {
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+#breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+#breadcrumbs .breadcrumb_last {
+  font-weight: bold;
+}
+
+
 
 h1,
 h2,
