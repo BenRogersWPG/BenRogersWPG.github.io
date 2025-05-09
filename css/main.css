@@ -95,12 +95,12 @@ body[theme=light] {
   background-color: #cecece;
 }
 
-[theme="light"] li {
+[theme=light] li {
   color: #000000;
   background-color: #cecece
 }
 
-[theme="dark"] li {
+[theme=dark] li {
   color: #cecece;
   background-color: #000000;
 }
