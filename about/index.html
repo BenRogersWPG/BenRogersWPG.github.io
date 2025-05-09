@@ -166,15 +166,21 @@
     </main>
 </body>
 
-<script type="text/javascript">function lightDark() {
-        var element = document.body;
-        if (element.getAttribute("theme") == "dark") {
-            element.setAttribute("theme", "light");
-        } else {
-            element.setAttribute("theme", "dark");
-        }
+
+<script>
+    function lightDark() {
+        const body = document.body;
+        const currentTheme = body.getAttribute("theme");
+        const newTheme = currentTheme === "dark" ? "light" : "dark";
+        body.setAttribute("theme", newTheme);
+        localStorage.setItem("theme", newTheme);
     }
 
+    // Load saved theme on page load
+    document.addEventListener("DOMContentLoaded", function () {
+        const savedTheme = localStorage.getItem("theme") || "light";
+        document.body.setAttribute("theme", savedTheme);
+    });
 </script>
 
 </html>

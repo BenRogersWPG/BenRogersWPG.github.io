@@ -14,8 +14,6 @@ main {
 }
 
 body {
-  background-color: #cecece;
-  color: #000000;
   font-size: 16px;
   margin-left: 0px;
   margin-right: 0px;
@@ -43,6 +41,11 @@ img {
 body[theme=dark] {
   color: #cecece;
   background-color: #000000;
+}
+
+body[theme=light] {
+  color: #000000;
+  background-color: #cecece;
 }
 
 
@@ -110,14 +113,13 @@ svg {
   padding-top: 15px;
 }
 
-img.profile-image
-{
+img.profile-image {
   max-width: 100%;
-    height: 200px;
-    width: 200px;
-    float:right;
-    padding-left:10px;
-    padding-bottom:10px;
+  height: 200px;
+  width: 200px;
+  float: right;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
 nav ul {
@@ -188,6 +190,9 @@ nav.header-container ul {
 }
 
 
+header.desktop div.menu div.menu-inner {
+  padding-right:10px;
+}
 
 
 [theme=light] textarea,
@@ -373,10 +378,10 @@ form textarea {
     margin-left: 2em;
   }
 
-    img.profile-image {
-      max-width: 100%;
-      height: 50vw;
-      width: auto;
-    }
+  img.profile-image {
+    max-width: 100%;
+    height: 50vw;
+    width: auto;
+  }
 
 }
