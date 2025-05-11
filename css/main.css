@@ -308,7 +308,11 @@ table,
 th,
 td {
   border: 1px solid;
-  padding: 0.5em;
+}
+
+td, th
+{
+  padding: 10px;
 }
 
 
