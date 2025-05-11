@@ -324,6 +324,18 @@ nav {
   -webkit-box-shadow: 0 0 0.5rem 0 rgb(0 0 0 / 10%);
 }
 
+main {
+  padding-bottom: 15px;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+label.contact-form {
+  display: block;
+  margin-bottom: 0.3em;
+}
 
 
 [theme=dark] h1,
@@ -349,6 +361,8 @@ header {
   padding-right: 4px;
 
 }
+
+
 
 [theme=dark] a.menu-item,
 [theme=dark] .header-title a,

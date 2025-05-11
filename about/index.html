@@ -159,7 +159,7 @@
 </head>
 
 <body header-desktop="fixed" header-mobile="auto" theme="light">
-    <a class="skip-link" href="#main-content" role="link">Skip to content</a>
+    <a class="skip-link" href="#main-content" title="Skip to main content" role="link">Skip to content</a>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M966N8M" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
@@ -169,7 +169,7 @@
     <nav class="header-container mobile" id="header-mobile">
         <ul>
             <div class="header-title">
-                <li><a href="/" title="Ben"><span class="header-title-pre"></span>Home</a></li>
+                <li><a href="/" title="Home"><span class="header-title-pre"></span>Home</a></li>
             </div>
         </ul>
         <label for='menu' tabindex="0" class="menu-icon">
@@ -205,7 +205,7 @@
     <header class="desktop" id="header-desktop">
         <div class="header-wrapper">
             <div class="header-title">
-                <a href="/" title="Ben"><span class="header-title-pre"></span>Home</a>
+                <a href="/" title="Home"><span class="header-title-pre"></span>Home</a>
             </div>
             <div class="menu">
                 <div class="menu-inner"><a class="menu-item" title="About page" href="/about/"> About </a> | <a class="menu-item"
@@ -219,7 +219,7 @@
         </div>
     </header>
     <main id="main-content">
-        <p id="breadcrumbs"><span><a href="https://benrogerswpg.github.io/">Ben Rogers Portfolio</a></span> » <span class="breadcrumb_last" aria-current="page">About</span></p>
+        <p id="breadcrumbs"><span><a href="https://benrogerswpg.github.io/" title="Ben Rogers Portfolio" >Ben Rogers Portfolio</a></span> » <span class="breadcrumb_last" aria-current="page">About</span></p>
         <h1>About Ben Rogers</h1>
         <h2>Vancouver Programmer Analyst</h2>
         <img
@@ -230,7 +230,7 @@
         "
         sizes="(max-width: 300px) 200px, 300px"
         alt="Ben Rogers wearing a tie in England with the London Eye in the background"
-        class="profile-image"
+        class="profile-image" title="Ben Rogers"
         />
         <p>Hi, I am Ben. I am a Programmer Analyst with a focus on full-stack development, covering both desktop and web. I have a passion for coding and enjoy creating accessible, SEO-friendly, and fun/interesting applications. I am particularly focused on CI/CD, automation, DevOps, and accessibility. My goal is to continuously learn and improve my skills. You can usually catch me reading new programming books, and trying out code examples here on GitHub (<i>mostly in private repos though</i>).</p>
         <h2>Programming Experience</h2>
@@ -254,32 +254,28 @@
         <h2>Follow Me</h2>
         <p>Follow me on my social media accounts below:</p>
         <ul class="social-media-list">
-            <li><a target="_blank" href="https://github.com/BenRogersWPG">GitHub</a></li>
-            <li><a target="_blank" href="https://www.linkedin.com/in/benrogerswpg/">LinkedIn</a></li>
-            <li><a target="_blank" href="https://www.instagram.com/benrogerswpg/">Instagram</a></li>
-            <li><a target="_blank" href="https://linktr.ee/benrogerswpg">LinkTree</a></li>
+            <li><a target="_blank" title="GitHub" href="https://github.com/BenRogersWPG">GitHub</a></li>
+            <li><a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/benrogerswpg/">LinkedIn</a></li>
+            <li><a target="_blank" title="Instagram" href="https://www.instagram.com/benrogerswpg/">Instagram</a></li>
+            <li><a target="_blank" title="LinkTree" href="https://linktr.ee/benrogerswpg">LinkTree</a></li>
             </ul>
         <h2>Contact Me</h2>
         <p>If you would like to contact me, please reach out below on my contact form.</p><p><i>(<strong>hint:</strong> I do consulting / contract work too if you need short-term work or ideas - mostly SEO, but let's talk)</i></p>
         <div>
-        <form
-        action="https://formspree.io/f/xanonown"
-        method="POST"
-        >
-        <label>
-            Your email:<br>
-            <input type="email" name="email">
-        </label>
-        <br>
-        <label>
-            Your message:<br>
-            <textarea name="message"></textarea>
-        </label>
-        <br>
-        <button type="submit">Send</button>
-        </form>
+            <form action="https://formspree.io/f/xanonown" method="POST">
+                <div class="form-group">
+                <label class="contact-form"  for="email">Your email:</label>
+                <input type="email" name="email" id="email">
+                </div>
+
+                <div class="form-group">
+                <label class="contact-form" for="message">Your message:</label>
+                <textarea name="message" id="message"></textarea>
+                </div>
+
+                <button type="submit">Send</button>
+            </form>
         </div>
-        <br />
     </main>
     <script>
         function lightDark() {
