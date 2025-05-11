@@ -292,6 +292,65 @@ ul.social-media-list li
 }
 
 
+
+
+
+
+/* Base table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+}
+
+/* Table borders */
+table,
+th,
+td {
+  border: 1px solid;
+  padding: 0.5em;
+}
+
+
+body[theme="light"] table {
+  border-color: #373737;;
+}
+
+body[theme="light"] th {
+  background-color: #373737;
+  color: #fff;
+}
+
+body[theme="light"] td {
+  background-color: #cecece;
+  color: #000;
+}
+
+
+
+body[theme="dark"] table {
+  border-color: #373737;;
+}
+
+body[theme="dark"] th {
+  background-color: #373737;
+  color: #fff;
+}
+
+body[theme="dark"] td {
+  background-color: #111;
+  color: #cecece;
+}
+
+h3.cta
+{
+  font-size:24px;
+}
+
+
+
+
+
 h1,
 h2,
 h3,
