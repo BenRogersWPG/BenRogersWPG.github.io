@@ -258,6 +258,7 @@ header.desktop div.menu div.menu-inner {
 [theme=light] #breadcrumbs {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
 [theme=dark] #breadcrumbs {
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
 }
@@ -284,8 +285,7 @@ header.desktop div.menu div.menu-inner {
   font-weight: bold;
 }
 
-ul.social-media-list li
-{
+ul.social-media-list li {
   display: inline-block;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -313,7 +313,8 @@ td {
 
 
 body[theme="light"] table {
-  border-color: #373737;;
+  border-color: #373737;
+  ;
 }
 
 body[theme="light"] th {
@@ -329,7 +330,8 @@ body[theme="light"] td {
 
 
 body[theme="dark"] table {
-  border-color: #373737;;
+  border-color: #373737;
+  ;
 }
 
 body[theme="dark"] th {
@@ -342,9 +344,8 @@ body[theme="dark"] td {
   color: #cecece;
 }
 
-h3.cta
-{
-  font-size:24px;
+h3.cta {
+  font-size: 24px;
 }
 
 
@@ -435,6 +436,15 @@ main {
   margin-top: 10px;
   width: 90%;
   max-width: 550px;
+}
+
+
+main.goodreads-achievements {
+  max-width: 640px;
+}
+
+main.goodreads-achievements div[align="center"] {
+  justify-self: center;
 }
 
 form input,
