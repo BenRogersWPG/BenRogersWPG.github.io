@@ -466,6 +466,14 @@ form textarea {
 }
 
 
+@media only screen and (max-width: 440px) {
+  td,
+  th {
+    padding: 0px;
+  }
+
+}
+
 
 @media only screen and (max-width: 380px) {
   #header-desktop {
@@ -538,8 +546,12 @@ form textarea {
 
   td,
   th {
-    padding: 0px;
+    padding: 2px;
   }
+
+    div.table-wrapper table tbody tr td img {
+      width: 40vw;
+    }
 
 }
 
