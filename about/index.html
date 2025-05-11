@@ -248,7 +248,7 @@
             <li><i>... probably more</i></li>
         </ul>
         <h2>Education</h2>
-        <p>Computer Analyst/Programmer degree - <b>RRC Polytech</b> (Winnipeg)</p>
+        <p>Computer Analyst/Programmer degree - <strong>RRC Polytech</strong> (Winnipeg)</p>
         <h2>Projects</h2>
         <p>See my projects list on my <a href="/" title="Ben Rogers GitHub Portfolio">code portfolio</a> page.</p>
         <h2>Follow Me</h2>
@@ -260,44 +260,41 @@
             <li><a target="_blank" href="https://linktr.ee/benrogerswpg">LinkTree</a></li>
             </ul>
         <h2>Contact Me</h2>
-        <p>If you would like to contact me, please reach out below on my contact form <i><br/>(hint: I do consulting / contract work too if you need short-term work or ideas - mostly SEO, but let's talk)</i></p>
+        <p>If you would like to contact me, please reach out below on my contact form.</p><p><i>(<strong>hint:</strong> I do consulting / contract work too if you need short-term work or ideas - mostly SEO, but let's talk)</i></p>
         <div>
         <form
         action="https://formspree.io/f/xanonown"
         method="POST"
         >
         <label>
-            Your email:<br/>
+            Your email:<br>
             <input type="email" name="email">
         </label>
-        <br />
+        <br>
         <label>
-            Your message:<br/>
+            Your message:<br>
             <textarea name="message"></textarea>
         </label>
-        <br/>
+        <br>
         <button type="submit">Send</button>
         </form>
         </div>
         <br />
     </main>
+    <script>
+        function lightDark() {
+            const body = document.body;
+            const currentTheme = body.getAttribute("theme");
+            const newTheme = currentTheme === "dark" ? "light" : "dark";
+            body.setAttribute("theme", newTheme);
+            localStorage.setItem("theme", newTheme);
+        }
+
+        // Load saved theme on page load
+        document.addEventListener("DOMContentLoaded", function () {
+            const savedTheme = localStorage.getItem("theme") || "light";
+            document.body.setAttribute("theme", savedTheme);
+        });
+    </script>
 </body>
-
-
-<script>
-    function lightDark() {
-        const body = document.body;
-        const currentTheme = body.getAttribute("theme");
-        const newTheme = currentTheme === "dark" ? "light" : "dark";
-        body.setAttribute("theme", newTheme);
-        localStorage.setItem("theme", newTheme);
-    }
-
-    // Load saved theme on page load
-    document.addEventListener("DOMContentLoaded", function () {
-        const savedTheme = localStorage.getItem("theme") || "light";
-        document.body.setAttribute("theme", savedTheme);
-    });
-</script>
-
 </html>

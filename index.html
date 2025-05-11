@@ -118,38 +118,38 @@
         <h1>Ben Rogers GitHub Portfolio</h1>
         <h2>Projects</h2>
         <h3>Goodreads Achievements</h3>
-        <p><i>A Complete List of Goodreads Achievements</i><br/>
-        <b>Visit the <a href="https://benrogerswpg.github.io/Goodreads-Achievements/" title="Goodreads Achievements">Goodreads Achievements Guide</a> webpage</b></p>
+        <p><i>A constantly-updated complete List of Goodreads Achievements and badges and how to get them.</i></p><p>
+        <strong>Visit the <a href="https://benrogerswpg.github.io/Goodreads-Achievements/" title="Goodreads Achievements">Goodreads Achievements Guide</a> webpage</strong></p>
         <hr />
         <h3>WebSearch</h3>
-        <p><i>A Visual Studio Code extension that allows you to perform a web search for the selected text using your favorite search engines (add as many as you like, editable in extension settings).</i><br />
-        <b>Check out my <a href="https://github.com/BenRogersWPG/WebSearch" title="WebSearch">WebSearch VS Code Extension</a></b></p>
+        <p><i>A Visual Studio Code extension that allows you to perform a web search for the selected text using your favorite search engines (add as many as you like, editable in extension settings).</i></p><p>
+        <strong>Check out my <a href="https://github.com/BenRogersWPG/WebSearch" title="WebSearch">WebSearch VS Code Extension</a></strong></p>
         <hr />
         <h3>Transparent Minimap</h3>
-        <p><i>VS Code extension that allows you to select the transparency of the code editor minimap. You can also choose the color of it, if you wish to style it based on your theme.</i><br />
-        <b>Try the <a href="https://github.com/BenRogersWPG/VSCode-Transparent-Minimap" title="Transparent Minimap">Transparent Minimap Extension</a></b></p>
+        <p><i>VS Code extension that allows you to select the transparency of the code editor minimap. You can also choose the color of it, if you wish to style it based on your theme.</i></p><p>
+        <strong>Try the <a href="https://github.com/BenRogersWPG/VSCode-Transparent-Minimap" title="Transparent Minimap">Transparent Minimap Extension</a></strong></p>
         <hr />
         <h3>GitHub Actions Update Notifier</h3>
-        <p><i>Receive update notifications automatically when your favorite GitHub Actions workflows are updated. It automates the process of looking for updated modules, and presents what is new in changelogs, as well as creating pull requests that you can merge into your existing workflows.</i><br />
-        <b>Fork the <a href="https://github.com/BenRogersWPG/Github-Actions-Update-Notifier" title="GitHub Actions Update Notifier">GitHub Actions Update Notifier project</a></b></p>
+        <p><i>Receive update notifications automatically when your favorite GitHub Actions workflows are updated. It automates the process of looking for updated modules, and presents what is new in changelogs, as well as creating pull requests that you can merge into your existing workflows.</i></p><p>
+        <strong>Fork the <a href="https://github.com/BenRogersWPG/Github-Actions-Update-Notifier" title="GitHub Actions Update Notifier">GitHub Actions Update Notifier project</a></strong></p>
         <br />
     </main>
+
+
+    <script>
+        function lightDark() {
+            const body = document.body;
+            const currentTheme = body.getAttribute("theme");
+            const newTheme = currentTheme === "dark" ? "light" : "dark";
+            body.setAttribute("theme", newTheme);
+            localStorage.setItem("theme", newTheme);
+        }
+
+        // Load saved theme on page load
+        document.addEventListener("DOMContentLoaded", function () {
+            const savedTheme = localStorage.getItem("theme") || "light";
+            document.body.setAttribute("theme", savedTheme);
+        });
+    </script>
 </body>
-
-<script>
-    function lightDark() {
-        const body = document.body;
-        const currentTheme = body.getAttribute("theme");
-        const newTheme = currentTheme === "dark" ? "light" : "dark";
-        body.setAttribute("theme", newTheme);
-        localStorage.setItem("theme", newTheme);
-    }
-
-    // Load saved theme on page load
-    document.addEventListener("DOMContentLoaded", function () {
-        const savedTheme = localStorage.getItem("theme") || "light";
-        document.body.setAttribute("theme", savedTheme);
-    });
-</script>
-
 </html>
