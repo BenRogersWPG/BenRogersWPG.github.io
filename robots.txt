@@ -4,4 +4,31 @@ Allow: /
 User-agent: DeepSeekBot
 Disallow: /
 
+User-agent: Twitterbot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: 360Spider
+Disallow: /
+
+User-agent: Sogou spider
+Disallow: /
+
+User-agent: Sogou web spider
+Disallow: /
+
+User-agent: YisouSpider
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
 Sitemap: https://benrogerswpg.github.io/sitemap.xml
