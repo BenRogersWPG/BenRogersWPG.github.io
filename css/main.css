@@ -270,7 +270,7 @@ header.desktop div.menu div.menu-inner {
   width: fit-content;
   border-radius: 8px;
   backdrop-filter: blur(6px);
-  display:inline-flex;
+  display: inline-flex;
   flex-wrap: nowrap;
   align-items: center;
   gap: 0.4em;
@@ -386,7 +386,7 @@ nav {
 [theme=dark] nav {
   background-color: #0e0e0e;
   box-shadow: 0px 0px 1rem 0 rgb(19 19 19);
-  -webkit-box-shadow: 0 0 0.5rem 0 rgb(200 200 200 / 10%);
+  /*-webkit-box-shadow: 0 0 0.5rem 0 rgb(200 200 200 / 10%);*/
 
 }
 
@@ -476,6 +476,7 @@ form textarea {
 
 
 @media only screen and (max-width: 440px) {
+
   td,
   th {
     padding: 0px;
@@ -558,9 +559,9 @@ form textarea {
     padding: 2px;
   }
 
-    div.table-wrapper table tbody tr td img {
-      width: 40vw;
-    }
+  div.table-wrapper table tbody tr td img {
+    width: 40vw;
+  }
 
 }
 
