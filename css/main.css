@@ -207,7 +207,7 @@ nav.header-container ul {
   width: 20px;
   height: 20px;
   display: inline-block;
-  cursor: pointer;
+  /*cursor: pointer;*/
 }
 
 .menu-icon svg {
