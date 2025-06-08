@@ -273,8 +273,8 @@ header.desktop div.menu div.menu-inner {
   display: inline-flex;
   flex-wrap: nowrap;
   align-items: center;
-  gap: 0.4em;
-  white-space: nowrap;
+  gap: 0.7em;
+  white-space: normal;
 }
 
 #breadcrumbs span {
