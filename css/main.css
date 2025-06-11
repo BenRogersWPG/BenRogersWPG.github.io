@@ -274,7 +274,12 @@ header.desktop div.menu div.menu-inner {
   flex-wrap: nowrap;
   /*align-items: center;*/
   gap: 0.5em;
-  white-space: normal;
+  /*white-space: normal;*/
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
 }
 
 /*#breadcrumbs span {
@@ -286,6 +291,7 @@ header.desktop div.menu div.menu-inner {
 #breadcrumbs a {
   text-decoration: none;
   transition: color 0.2s ease;
+  white-space: nowrap;
 }
 
 #breadcrumbs a:hover {
@@ -487,6 +493,12 @@ form textarea {
 }
 
 
+@media only screen and (max-width: 384px) {
+  #breadcrumbs {
+      white-space: normal;
+    }
+}
+
 @media only screen and (max-width: 380px) {
   #header-desktop {
     display: none;
@@ -591,4 +603,15 @@ form textarea {
     width: 23vw;
   }
 
+}
+
+@media only screen and (max-width: 270px) {
+  #breadcrumbs {
+      /*white-space: normal;*/
+      display: block;
+      flex-wrap: wrap;
+      overflow-x: auto;
+      white-space: wrap;
+
+    }
 }
