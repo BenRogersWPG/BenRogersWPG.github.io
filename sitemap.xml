@@ -6,13 +6,41 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://benrogerswpg.github.io/</loc>
-    <lastmod>2025-06-26T22:39:01+00:00</lastmod>
+    <lastmod>2025-07-01T15:47:24+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://benrogerswpg.github.io/Goodreads-Achievements/</loc>
-    <lastmod>2025-07-01T15:35:21+00:00</lastmod>
+    <lastmod>2025-07-17T23:37:56+00:00</lastmod>
     <priority>0.80</priority>
+    <image:image>
+      <image:loc>
+        https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Page-Turner/page-turner-summer.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>
+        https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Speed-Reader/speed-reader-summer.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>
+        https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Book-Boss/book-boss-summer.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>
+        https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Challenge-Faves/challenge-faves.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>
+        https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Poolside-Puzzlers/poolside-puzzlers.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>
+        https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Chart-Toppers/chart-toppers.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>
+        https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Acclaimed-Titles/acclaimed-titles.webp</image:loc>
+    </image:image>
     <image:image>
       <image:loc>https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Empty/empty.webp</image:loc>
     </image:image>
@@ -33,7 +61,8 @@
         https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Armchair-Explorer/armchair-explorer.webp</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Empty/empty.webp</image:loc>
+      <image:loc>
+        https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Rainbow-Reads/rainbow-reads.webp</image:loc>
     </image:image>
     <image:image>
       <image:loc>
@@ -104,16 +133,16 @@
       <image:loc>https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/June/june.webp</image:loc>
     </image:image>
     <image:image>
-      <image:loc>
-        https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Sapphire-Reader/sapphire-reader.webp</image:loc>
+      <image:loc>https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/July/july.webp</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/July/july.webp</image:loc>
+      <image:loc>
+        https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Sapphire-Reader/sapphire-reader.webp</image:loc>
     </image:image>
   </url>
   <url>
     <loc>https://benrogerswpg.github.io/about/</loc>
-    <lastmod>2025-06-26T22:39:01+00:00</lastmod>
+    <lastmod>2025-07-01T15:47:24+00:00</lastmod>
     <priority>0.80</priority>
     <image:image>
       <image:loc>
