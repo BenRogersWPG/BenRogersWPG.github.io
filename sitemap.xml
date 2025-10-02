@@ -4,6 +4,7 @@
   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
                       http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd"
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://benrogerswpg.github.io/</loc>
     <lastmod>2025-09-01T16:01:07+00:00</lastmod>
@@ -13,6 +14,33 @@
     <loc>https://benrogerswpg.github.io/Goodreads-Achievements/</loc>
     <lastmod>2025-09-01T15:58:11+00:00</lastmod>
     <priority>0.80</priority>
+    <image:image>
+      <image:loc>
+        https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Page-Turner/page-turner-fall.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>
+        https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Speed-Reader/speed-reader-fall.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>
+        https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Community-Picks/community-picks.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>
+        https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Hispanic-Heritage/hispanic-heritage.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>
+        https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Heart-Warmers/heart-warmers.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Empty/empty.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>
+        https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Book-Boss/book-boss-summer.webp</image:loc>
+    </image:image>
     <image:image>
       <image:loc>
         https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Page-Turner/page-turner-summer.webp</image:loc>
@@ -40,9 +68,6 @@
     <image:image>
       <image:loc>
         https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Acclaimed-Titles/acclaimed-titles.webp</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Empty/empty.webp</image:loc>
     </image:image>
     <image:image>
       <image:loc>
@@ -136,13 +161,24 @@
       <image:loc>https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/July/july.webp</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/August/august.webp</image:loc>
+      <image:loc>
+        https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/August/august.webp</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/September/september.webp</image:loc>
+      <image:loc>
+        https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/September/september.webp</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Debut-Darlings/debut-darlings.webp</image:loc>
+      <image:loc>
+        https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/October/october.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>
+        https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Debut-Darlings/debut-darlings.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>
+        https://benrogerswpg.github.io/Goodreads-Achievements/Media/Badges/Lightning-Round/lightning-round.webp</image:loc>
     </image:image>
     <image:image>
       <image:loc>
