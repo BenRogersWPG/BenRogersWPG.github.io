@@ -4,6 +4,9 @@ Allow: /
 User-agent: DeepSeekBot
 Disallow: /
 
+User-agent: Amazonbot
+Disallow: /
+
 User-agent: Twitterbot
 Disallow: /
 
@@ -23,6 +26,9 @@ User-agent: YisouSpider
 Disallow: /
 
 User-agent: Bytespider
+Disallow: /
+
+User-agent: meta-externalagent
 Disallow: /
 
 User-agent: YandexBot
