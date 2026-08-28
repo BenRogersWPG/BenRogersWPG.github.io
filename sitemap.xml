@@ -199,4 +199,14 @@
     <lastmod>2026-03-08T17:23:13+00:00</lastmod>
     <priority>0.80</priority>
   </url>
+  <url>
+    <loc>https://benrogerswpg.github.io/VSCode-Transparent-Minimap/</loc>
+    <lastmod>2022-09-30T11:25:56+00:00</lastmod>
+    <priority>0.20</priority>
+  </url>
+  <url>
+    <loc>https://benrogerswpg.github.io/WebSearch/</loc>
+    <lastmod>2022-04-19T10:10:14+00:00</lastmod>
+    <priority>0.20</priority>
+  </url>
 </urlset>
